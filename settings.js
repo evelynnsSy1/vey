@@ -2,45 +2,53 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 
-global.ytname = "YT: Ridz-coder01"
+global.ytname = ""
 global.socialm = "GitHub: Ridzcoder"
-global.location = "Africa,Kampala" 
+global.location = "Indonesia" 
 
-global.botname = 'NEBULA-MD' 
-global.ownernumber = '237678687593'
-global.botnumber = ''//your bot number here
-global.ownername = 'Rɪᴅᴢ Cᴏᴅᴇʀ❦'
+global.botname = 'veybot' 
+global.ownernumber = '6285809345875'
+global.botnumber = '//6285809345875'
+global.ownername = 'evelynnsSy1'
 
-global.websitex = "https://ridzcoder.zone.id"
-global.wagc = "https://chat.whatsapp.com/KQzM54TU1LmGwIGc2TcOGi"
-global.themeemoji = '🧝'
+global.websitex = 'https://evelynzone.my.id'
+global.sharelink = "https://chat.whatsapp.com/KRevsubuTmLHLmG6X5Zmxi"
+global.themeemoji = '🥧'
 
-global.wm = "ᴅᴇᴅɪᴄᴀᴛᴇᴅ ᴛᴏ Fᴀʀɪᴅᴀʜ🧝"
-global.botscript = 'https://github.com/ridz-coder01/NEBULA-MD'
-global.packname = "Rɪᴅᴢ Cᴏᴅᴇʀ❦"
+global.wm = "evelyn bot"
+global.botscript = 'Privat'
+global.packname = "evelyn bot"
 
-global.author = "Rɪᴅᴢ Cᴏᴅᴇʀ❦\n\n+237678687593"
-global.creator = "255611199851@s.whatsapp.net"
+global.author = "evelyn bot"
+global.creator = "6285809345875@s.whatsapp.net"
 global.vprefix = '.'
-global.premium = ["255611199851","237678687593"] // Premium User
+global.premium = ["6285809345875@s.whatsapp.net"] // Premium User
 global.hituet = 0
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v1' // reply type 'v1' => 'v4'
-global.autoblocknumber = '1'
-global.antiforeignnumber = '1'
-global.welcome = true
+global.autoblocknumber = '0'
+global.antiforeignnumber = '0'
+global.setwelcome = "୨୧ selamat datang di *straypsie* ୨୧\n\nhalo! senang melihat @user bergabung di marga *straypsie* ♡ \nnama :\numur :\ngender :\n\nsemoga betah di sini ya selamat datang dan selamat menjadi bagian dari *straypsie*!"
 global.anticall = false
-global.autoswview = true
+global.autoswview = false
 global.adminevent = false
 global.groupevent = false
-global.mess = {
-        limit: 'Your limit is up!',
-        nsfw: 'Hey Horny User Nsfw is disabled in this group, Please tell the admin to enable',
-    done: 'Done✓',
-    error: 'Error! Please try again later',
-    success: 'Here you go!'
+global.mess = { 
+    admin: '🙅‍♀️ Upss... fitur kick cuma buat admin *strayps!e* aja ya sayang ♡',
+    delete: '🙅‍♀️ Upss... fitur delete cuma buat admin *strayps!e* aja ୨୧'
 }
-global.thumb = fs.readFileSync('./Media/theme/Nebula.png')
+global.limitawal = {
+    premium: "Infinity",
+    free: "Infinity",
+}
+nsfw: '🔞 Aduh maaf sayang...\nFitur 18+ masih off di grup ini ૮꒰˶• ༝ •˶꒱ა\nSuruh admin ketik .nsfw on dulu ya ♡',
+
+done: '✨ Done! Beres sayang~',
+
+error: '💔 Ups... ada error nih\nCoba lagi bentar lagi ya ૮₍ ˶• ༝ •˶ ₎ა',
+
+success: '🧚 Ta-da! Ini hasilnya udah jadi ♡'
+global.thumb = fs.readFileSync('./media/thumb.jpg')
 
 
 let file = require.resolve(__filename)
