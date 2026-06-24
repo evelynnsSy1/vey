@@ -1,5 +1,5 @@
-global.apikey = "c63caa1c-baa6-4dee-9ae9-753f73996a2e" 
-global.domain = "https://evelyn.violetic.pw"
+global.apikey = process.env.APIKEY
+global.domain = " "
 global.capikey = "" // opsional
 
 global.ads = false
@@ -51,13 +51,10 @@ global.limitawal = {
     premium: "Infinity",
     free: "Infinity",
 }
-nsfw: '🔞 Aduh maaf sayang...\nFitur 18+ masih off di grup ini ૮꒰˶• ༝ •˶꒱ა\nSuruh admin ketik .nsfw on dulu ya ♡',
-
-done: '✨ Done! Beres sayang~',
-
-error: '💔 Ups... ada error nih\nCoba lagi bentar lagi ya ૮₍ ˶• ༝ •˶ ₎ა',
-
-success: '🧚 Ta-da! Ini hasilnya udah jadi ♡'
+global.nsfw = '🔞 Aduh maaf sayang...\nFitur 18+ masih off di grup ini ૮꒰˶• ༝ •˶꒱ა\nSuruh admin ketik .nsfw on dulu ya ♡',
+global.done = '✨ Done! Beres sayang~',
+global.error = '💔 Ups... ada error nih\nCoba lagi bentar lagi ya ૮₍ ˶• ༝ •˶ ₎ა',
+global.success = '🧚 Ta-da! Ini hasilnya udah jadi ♡'
 global.thumb = fs.readFileSync('./media/thumb.jpg')
 
 let file = require.resolve(__filename)
