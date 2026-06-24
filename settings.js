@@ -1,4 +1,17 @@
-const fs = require('fs')
+// === API VIOLETIC - BARIS 1 SAMPE 6 ===
+global.apikey = "ptla_tempell_apikey_kamu_disini" 
+global.domain = "https://panelkamu.violetic.pw"
+global.capikey = "ptlc_isi_juga_kalo_ada" // opsional
+
+// === MATIIN IKLAN - BARIS 6 SAMPE 9 ===
+global.ads = false
+global.channel = ""
+global.forcesub = false
+
+// === CODE KAMU YG BEGADANG - MULAI BARIS 11 KE BAWAH === global.owner = ["628xxxx"]
+global.botname = "veybot"
+global.prefix = "."
+ // dst...const fs = require('fs')
 const chalk = require('chalk')
 
 
