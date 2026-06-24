@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 
 global.ytname = ""
-global.socialm = "GitHub: Ridzcoder"
+global.socialm = ""
 global.location = "Indonesia" 
 
 global.botname = 'veybot' 
@@ -49,7 +49,8 @@ error: '💔 Ups... ada error nih\nCoba lagi bentar lagi ya ૮₍ ˶• ༝ •
 
 success: '🧚 Ta-da! Ini hasilnya udah jadi ♡'
 global.thumb = fs.readFileSync('./media/thumb.jpg')
-
+global.upscaleAPI = 'ISI_API_KEY_LOLHUMAN_KAMU'
+global.upscaleProvider = 'lolhuman'
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
