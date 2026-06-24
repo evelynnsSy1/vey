@@ -1,0 +1,28 @@
+let handler = async (m, { conn, text }) => {
+    if (!text) throw 'Kirim link TikTok nya kak ♡\nContoh: .tt https://vt.tiktok.com/xxx'
+    if (!text.includes('tiktok.com')) throw 'Link nya harus dari TikTok yaa'
+    
+    m.reply('Lagi download video TikTok nya... bentar ✨')
+    
+    try {
+        let api = `https://api.lolhuman.xyz/api/tiktok?apikey=${global.upscaleAPI}&url=${text}`
+        let res = await fetch(api)
+        let json = await res.json()
+        
+        if (json.status !== '200') throw 'Gagal download video nya'
+        
+        let data = json.result
+        let caption = `🎵 *${data.title || 'Video TikTok'}*\n👤 @${data.author.username || '-'}\n\nTanpa watermark ♡`
+        
+        await conn.sendFile(m.chat, data.video, 'tt.mp4', caption, m)
+    } catch (e) {
+        m.reply(`Error: ${e.message}`)
+    }
+}
+
+handler.help = ['tt', 'tiktok']
+handler.tags = ['downloader']
+handler.command = /^(tt|tiktok)$/i
+handler.limit = true
+
+export default handler
