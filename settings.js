@@ -1,14 +1,11 @@
-// === API VIOLETIC - BARIS 1 SAMPE 6 ===
-global.apikey = "ptla_tempell_apikey_kamu_disini" 
+global.apikey = "c63caa1c-baa6-4dee-9ae9-753f73996a2e" 
 global.domain = "https://panelkamu.violetic.pw"
-global.capikey = "ptlc_isi_juga_kalo_ada" // opsional
+global.capikey = "" // opsional
 
-// === MATIIN IKLAN - BARIS 6 SAMPE 9 ===
 global.ads = false
 global.channel = ""
 global.forcesub = false
 
-// === CODE KAMU YG BEGADANG - MULAI BARIS 11 KE BAWAH === global.owner = ["628xxxx"]
 global.botname = "veybot"
 global.prefix = "."
  // dst...const fs = require('fs')
@@ -62,8 +59,6 @@ error: '💔 Ups... ada error nih\nCoba lagi bentar lagi ya ૮₍ ˶• ༝ •
 
 success: '🧚 Ta-da! Ini hasilnya udah jadi ♡'
 global.thumb = fs.readFileSync('./media/thumb.jpg')
-global.upscaleAPI = 'ISI_API_KEY_LOLHUMAN_KAMU'
-global.upscaleProvider = 'lolhuman'
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
