@@ -1,5 +1,5 @@
 global.apikey = "c63caa1c-baa6-4dee-9ae9-753f73996a2e" 
-global.domain = "https://panelkamu.violetic.pw"
+global.domain = "https://evelyn.violetic.pw"
 global.capikey = "" // opsional
 
 global.ads = false
